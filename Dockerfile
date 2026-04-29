@@ -1,12 +1,11 @@
 FROM python:3.10-slim
 
-# Install full LibreOffice + Devanagari fonts + extra fonts
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-        libreoffice \
+        libreoffice-writer \
+        libreoffice-calc \
         fonts-deva \
         fonts-liberation \
-        fonts-dejavu \
         fonts-freefont-ttf \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
