@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  A high-performance, containerized REST API for bi-directional document conversion. 
+  A high-performance, containerized REST API for bi-directional document conversion. (no need to clone this project))
 </p>
 
 <div align="center">
