@@ -33,7 +33,7 @@
 
 This microservice was developed specifically to support the **[Google TMT Hackathon](https://github.com/sworupshrestha0123/Google_TMT_HACKATHON)** repository. 
 
-Document conversion (especially DOCX to PDF) requires system-level dependencies that are often difficult to bundle within a standard serverless function or lightweight web application. By isolating this functionality into its own dedicated, Dockerized FastAPI microservice, the main hackathon application can remain lightweight while delegating heavy CPU-bound document rendering tasks via standard HTTP calls.
+Document conversion requires system-level dependencies that are often difficult to bundle within a standard serverless function or lightweight web application. By isolating this functionality into its own dedicated, Dockerized FastAPI microservice, the main hackathon application can remain lightweight while delegating heavy CPU-bound document rendering tasks via standard HTTP calls.
 
 ---
 
